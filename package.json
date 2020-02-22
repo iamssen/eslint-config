@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Lunit eslint config",
   "main": "index.js",
+  "repository": "lunit-io/eslint-config",
   "author": {
     "name": "Seoyeon Lee",
     "email": "i@ssen.name"
