@@ -8,6 +8,9 @@
     "name": "Seoyeon Lee",
     "email": "i@ssen.name"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "2.x",
