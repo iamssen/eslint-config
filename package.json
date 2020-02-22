@@ -1,0 +1,22 @@
+{
+  "name": "@lunit/eslint-config",
+  "version": "0.1.0",
+  "description": "Lunit eslint config",
+  "main": "index.js",
+  "author": {
+    "name": "Seoyeon Lee",
+    "email": "i@ssen.name"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "2.x",
+    "@typescript-eslint/parser": "2.x",
+    "babel-eslint": "10.x",
+    "confusing-browser-globals": "^1.0.9",
+    "eslint": "6.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "2.x"
+  }
+}
