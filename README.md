@@ -14,7 +14,7 @@ Add this config into package.json if the project is a React application.
 {
   "eslintConfig": {
     "extends": [
-      "@lunit/react",
+      "@lunit/eslint-config/react",
       "prettier",
       "prettier/react",
       "prettier/@typescript-eslint"
