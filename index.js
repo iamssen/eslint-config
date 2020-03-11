@@ -92,6 +92,12 @@ module.exports = {
         ...typescript,
       },
     },
+    {
+      files: ['**/*.stories.{js,jsx,ts,tsx}'],
+      rules: {
+        'react-hooks/rules-of-hooks': 'off',
+      }
+    }
   ],
   
   // NOTE: When adding rules here, you need to make sure they are compatible with
