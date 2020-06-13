@@ -1,13 +1,10 @@
 {
-  "name": "@lunit/eslint-config",
-  "version": "0.5.0",
-  "description": "Lunit eslint config",
+  "name": "@ssen/eslint-config",
+  "version": "1.0.0",
+  "description": "SSen's ESLint config",
   "main": "index.js",
-  "repository": "lunit-io/eslint-config",
-  "author": {
-    "name": "Seoyeon Lee",
-    "email": "i@ssen.name"
-  },
+  "repository": "iamssen/eslint-config",
+  "author": "Seoyeon Lee <i@ssen.name>",
   "publishConfig": {
     "access": "public"
   },

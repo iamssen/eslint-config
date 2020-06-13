@@ -1,5 +1,4 @@
 const restrictedGlobals = require('confusing-browser-globals');
-const {typescript} = require('./rules');
 
 module.exports = {
   root: true,
@@ -88,16 +87,29 @@ module.exports = {
         ],
         'no-useless-constructor': 'off',
         '@typescript-eslint/no-useless-constructor': 'warn',
-  
-        ...typescript,
+        
+        '@typescript-eslint/no-explicit-any': 'error',
+        
+        '@typescript-eslint/typedef': [
+          'error',
+          {
+            'arrayDestructuring': false,
+            'arrowParameter': false,
+            'objectDestructuring': false,
+            'parameter': true,
+            'propertyDeclaration': true,
+            'memberVariableDeclaration': false,
+            'variableDeclaration': false,
+          },
+        ],
       },
     },
     {
       files: ['**/*.stories.{js,jsx,ts,tsx}'],
       rules: {
         'react-hooks/rules-of-hooks': 'off',
-      }
-    }
+      },
+    },
   ],
   
   // NOTE: When adding rules here, you need to make sure they are compatible with

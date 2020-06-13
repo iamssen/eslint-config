@@ -5,16 +5,16 @@
 Install dependencies.
 
 ```sh
-npm install eslint @lunit/eslint-config eslint-config-prettier --save-dev
+npm install eslint @ssen/eslint-config eslint-config-prettier --save-dev
 ```
 
-Add this config into package.json if the project is a React application.
+Add this config into package.json
 
 ```json
 {
   "eslintConfig": {
     "extends": [
-      "@lunit",
+      "@ssen",
       "prettier",
       "prettier/react",
       "prettier/@typescript-eslint"
@@ -22,17 +22,3 @@ Add this config into package.json if the project is a React application.
   }
 }
 ```
-
-Or add this config into package.json if the project is not a React application. (like a Node.js application)
-
-```json
-{
-  "eslintConfig": {
-    "extends": [
-      "@lunit/eslint-config/without-react",
-      "prettier",
-      "prettier/@typescript-eslint"
-    ]
-  }
-}
-```  
